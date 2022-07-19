@@ -20,7 +20,7 @@ const divContainer = document.querySelector("#container");
 //Iteramos el array
 const iterateArray = (array, container) => {
   for (const item of array) {
-    generateHTML(item, container);      
+    generateHTML(item, container);
     //Ejecutamos dentro del bucle la función que genera el bloque de HTML
   }
 };
@@ -34,7 +34,7 @@ const generateHTML = (item, container) => {
         <p>${item.id}</p>
     </figure>`;
   print(figure, container);
-  //Ejecutamos la función que pinta los elementos en 
+  //Ejecutamos la función que pinta los elementos en
 };
 
 //Pintamos los elementos que hemos generado en el contenedor que hemos creado
